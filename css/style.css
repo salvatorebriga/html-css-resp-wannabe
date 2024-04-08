@@ -154,6 +154,10 @@ img {
         padding: 0px 40px;
     }
 
+    .steps{
+        margin-bottom: 0px;
+    }
+
     .steps .col{
         width: 100%;
     }
@@ -162,8 +166,14 @@ img {
         padding: 0px 30px;
     }
 
-    .steps .card > p{
+    .steps .card > p:not(:last-child){
         margin-bottom: 45px;
+    }
+
+    .why-us{
+        background-color: #222222;
+        margin-bottom: 0px;
+        padding-top: 48px;
     }
 
     .why-us .col{
