@@ -159,6 +159,20 @@ img {
     .steps .card > p{
         margin-bottom: 45px;
     }
+
+    .why-us .col{
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 0px 40px;
+    }
+
+    .why-us li:not(:last-child){
+        margin-bottom: 40px;
+    }
+
+    .why-us img{
+        margin-bottom: 40px;
+    }
 }
 
 
