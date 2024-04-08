@@ -138,6 +138,11 @@ img {
     .container{
         width: 100%;
     }
+
+    .site-header {
+        padding-top: 20px;
+        margin-top: 0px;
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -166,6 +171,10 @@ img {
         padding: 0px 30px;
     }
 
+    .steps .card > p{
+        margin-bottom: 60px;
+    }
+
     .steps .card > p:not(:last-child){
         margin-bottom: 45px;
     }
@@ -188,6 +197,11 @@ img {
 
     .why-us img{
         margin-bottom: 40px;
+    }
+
+    .site-header {
+        padding-top: 20px;
+        margin-top: 0px;
     }
 }
 
