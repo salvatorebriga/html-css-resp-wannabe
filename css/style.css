@@ -147,6 +147,18 @@ img {
     .lessons .card{
         padding: 0px 40px;
     }
+
+    .steps .col{
+        width: 100%;
+    }
+
+    .steps .card{
+        padding: 0px 30px;
+    }
+
+    .steps .card > p{
+        margin-bottom: 45px;
+    }
 }
 
 
