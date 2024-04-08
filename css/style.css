@@ -135,8 +135,18 @@ img {
 }
 
 @media screen and (max-width: 480px){
+    .row {
+        flex-wrap: wrap;
+    }
 
-    
+    .lessons .col {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .lessons .card{
+        padding: 0px 40px;
+    }
 }
 
 
