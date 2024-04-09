@@ -135,10 +135,6 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-    .container{
-        width: 100%;
-    }
-
     .site-header {
         padding-top: 20px;
         margin-top: 0px;
@@ -146,37 +142,31 @@ img {
 }
 
 @media screen and (max-width: 480px){
+
+    .site-header {
+        padding-top: 20px;
+        margin-top: 0px;
+    }
+
     .row {
         flex-wrap: wrap;
     }
 
-    .lessons .col {
+    .lessons .col,
+    .steps .col,
+    .why-us .col {
         width: 100%;
         margin-bottom: 40px;
-    }
-
-    .lessons .card{
-        padding: 0px 40px;
     }
 
     .steps{
         margin-bottom: 0px;
     }
 
-    .steps .col{
-        width: 100%;
-    }
-
-    .steps .card{
+    .steps .card,
+    .lessons .card,
+    .why-us .col{
         padding: 0px 30px;
-    }
-
-    .steps .card > p{
-        margin-bottom: 60px;
-    }
-
-    .steps .card > p:not(:last-child){
-        margin-bottom: 45px;
     }
 
     .why-us{
@@ -185,23 +175,8 @@ img {
         padding-top: 48px;
     }
 
-    .why-us .col{
-        width: 100%;
-        margin-bottom: 40px;
-        padding: 0px 40px;
-    }
-
-    .why-us li:not(:last-child){
-        margin-bottom: 40px;
-    }
-
     .why-us img{
         margin-bottom: 40px;
-    }
-
-    .site-header {
-        padding-top: 20px;
-        margin-top: 0px;
     }
 }
 
